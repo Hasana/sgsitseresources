@@ -6,9 +6,46 @@
         <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="pingendo_bootstrap.css" rel="stylesheet" type="text/css">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet"> 
+         <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,900" rel="stylesheet"> 
 
-    <body>
+    </head>
+	<style>
+
+	.book:hover  {
+	    background-color: #F2F692;
+	    color:#4caf50;
+	    transition: 0.4s;
+	    
+	}
+
+	.book a{
+
+		padding :10px 10px 10px 10px;
+		font-weight: 1200;
+		font-size: 115%;
+		color: #000000;
+	}
+
+	.branch
+	{
+		font-weight: bold;
+		font-size: 110%;		
+        font-family: 'Playfair Display SC', serif;
+
+	}
+
+	.subject{
+		font-weight: bold;
+		font-size: 1100%;		
+        font-family: 'Playfair Display SC', serif;
+	}
+      
+    body{
+    	background-color: 
+    }
+	</style>
+    <body >
         <div class="section section-info">
             <div class="container">
                 <div class="row">
@@ -16,10 +53,9 @@
                  <img class="img-responsive" src="images/logo.png">
                 </div>
 
-                    <div class="col-md-9">
-                        
-                            <h1> SGSITS, INDORE - E-RESOURCES</h1>
-                                        </div>
+                    <div class="col-md-9">                    
+                    <h1> SGSITS, INDORE - E-RESOURCES</h1>
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,7 +63,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <ul class="nav nav-justified nav-pills">
+                        <ul class="nav nav-justified nav-pills branch">
                             <li class="">
                                 <a href="#">Home</a>
                             </li>
@@ -92,7 +128,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-right">
-                        <table class="table table-hover table-striped">
+                        <table class="table table-hover table-striped table-bordered">
                             <thead>
                                 <tr>
                                     <th class="info">#</th>
@@ -101,122 +137,150 @@
                                    </tr>
                             </thead>
                             <tbody>
+                                <tr >
+                                    <div class="subject"><td>1</td>
+                                    <td>Introduction to Computer Programming</td></div>
+                                    <td >
+                                    <div class="book" >
+                                    <a href="#" style="color:red;" >1. C In Depth- S.K.Shrivastava</a><br><hr>
+                                        <a href="BooksCS/let-us-c-by-yashavant-kanetkar.pdf">2. Let Us C by Yashvant Kanetkar</a><br><hr>
+                                        <a href="BooksCS/Prentice Hall - The C Programming Language- Brian W. Kernighan, Dennis M. Ritchie, 2nd ed., ISBN .pdf">3. The C Programming Language(2nd edition)Brian Kernighan & Dennis M. Ritchie</a><br><hr>
+                                        <a href="BooksCS/How to Program,Deital&Deital.pdf">4. C:How to Program(6th Edition) Deitel and Deitel</a>
+									</div>
+                                    </td>                                   
+                                </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Introduction to Computer Programming</td>
-                                    <td>1. C In Depth- S.K.Shrivastava<br>
-                                        2. Let Us C by Yashvant Kanetkar<br>
-                                        3. The C Programming Language(2nd edition) Brian Kernighan and Dennis M. Ritchie<br>
-                                        4. C:How to Program(6th Edition) Deitel and Deitel 
+                                    <div class="subject"> <td>2</td>
+                                    <td>Data Structures</td></div>
+                                    <td>
+									<div class="book">
+                                    <a href="BooksCS/Introduction.to.Algorithms.3rd.Edition.Sep.2010.pdf">1. Introduction to Algorithms- Cormen,Leiserson,Rivest,Stein</a><br><hr>
+                                        <a href="BooksCS/Introduction to Algorithms by Udi Manber.pdf">2. Introduction to Algorithms: A Creative Approach by Udi Manber </a><br><hr>
+                                        <a href="#" style="color:red;" >3. Data Structures Using C by Tanenbaum</a><br><hr>
+                                        <a href="#" style="color:red;">4. Data Structures through C in depth- S.K.Shrivastava and Deepali Shrivastava </a><br>
 
+									</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <div class="subject"><td>3</td>
+                                    <td>Discrete Structures</td></div>
+                                    <td>
+                                    <div class="book">
+                                    <a href="BooksCS/Discrete Mathematics (5th Edition)- Kenneth A. Ross, Charles R. Wright - Prentice Hall (2002).pdf">1. Discrete Mathematics K. A. Ross and C. R. B. Wright</a><br><hr>
+                                        <a href="BooksCS/Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf">2. Discrete Mathematics and Its Applications by Kenneth H. Rosen</a><br><hr>
+                                        <a href="#"  style="color:red;" >3. Elements of Discrete Mathematics, McGraw-Hill by C.L.Liu</a><br><hr>
+                                        <a href="#" style="color:red;"	>4. Graph Theory with Applications to Engineering and Computer Science by Narsingh Deo</a><br>
+                                   </div>
                                     </td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Data Structures</td>
-                                    <td>1. Introduction to Algorithms- Cormen,Leiserson,Rivest,Stein<br>
-                                        2. Introduction to Algorithms: A Creative Approach by Udi Manber <br>
-                                        3. Data Structures Using C by Tanenbaum<br>
-                                        4. Data Structures through C in depth- S.K.Shrivastava and Deepali Shrivastava <br>
+                                     <div class="subject"><td>4</td>
+                                    <td>Computer Architecture</td></div>
+                                    <td>
+                                    <div class="book">
 
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Discrete Structures</td>
-                                    <td>1. Discrete Mathematics K. A. Ross and C. R. B. Wright<br>
-                                        2. Discrete Mathematics and Its Applications by Kenneth H. Rosen<br>
-                                        3. Elements of Discrete Mathematics, McGraw-Hill by C.L.Liu<br>
-                                        4. Graph Theory with Applications to Engineering and Computer Science by Narsingh Deo<br>
-                                    </td>
-                                     
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Computer Architecture</td>
-                                    <td>1. Computer Organisation by Carl Hamacher<br>
-                                        2. Computer Organization and Design by Patteson <br>
-                                        3. Digital Design and Computer Architecture by Harris and Harris<br> 
+                                    <a href="BooksCS/Computeranization And Embedded Systems, Hamacher, Vranesic, Zaky, Manjikian, 6Ed, Mgh, 2012.pdf">1. Computer Organisation by Carl Hamacher</a><br><hr>
+                                       <a href="BooksCS/MK.Computer.Organization.and.Design.4th.Edition.Oct.2011.pdf"> 2. Computer Organization and Design by Patterson</a> <br><hr>
+                                        <a href="BooksCS/Digital_Design_and_Computer_Architecture.pdf">3. Digital Design and Computer Architecture by Harris and Harris</a><br> 
+                                    </div>
                                      </td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>5</td>
-                                    <td>DBMS</td>
-                                    <td>1. Database System Concepts by Korth, Silberschatz and Sudarshan<br>
-                                        2. Fundamentals of Database Systems by Elmsari And Navathe <br>
-                                        3. MySQL Essentials<br>
-                                        4. MySQL Tutorial Excerpt
+                                    <div class="subject"><td>5</td>
+                                    <td>DBMS</td></div>
+                                    <td>
+                                    <div class="book">
 
+                                    <a href="BooksCS/Database System Concepts.pdf">1. Database System Concepts by Korth, Silberschatz and Sudarshan</a><br><hr>
+                                        <a href="BooksCS/Fundamentals_of_Database_Systems,_6th_Edition.pdf">2. Fundamentals of Database Systems by Elmsari And Navathe </a><br><hr>
+                                        <a href="BooksCS/keynote-mysql-essentials-403024.pdf">3. MySQL Essentials</a><br><hr>
+                                        <a href="BooksCS/mysql-tutorial-excerpt-5.5-en.pdf">4. MySQL Tutorial Excerpt</a>
+</div>
                                     </td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>6</td>
-                                    <td>Theory Of Computation</td>
-                                    <td>1. Introduction to Automata Theory, Languages and Computation by Hopcroft and Ullman <br>
-                                        2. Theory Of Computer Science by KLP Mishra<br>
+                                    <div class="subject"><td>6</td>
+                                    <td>Theory Of Computation</td></div>
+                                    <td>
+                                    <div class="book">
 
+                                    <a href="#" style="color:red;">1. Introduction to Automata Theory, Languages and Computation by Hopcroft and Ullman </a><br><hr>
+                                       <a href="BooksCS/theory-of-computer-science-by-k-l-p-mishra-chandrashekharan.pdf"> 2. Theory Of Computer Science by KLP Mishra</a><br>
+</div>
                                     </td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>7</td>
-                                    <td>Computer Networks</td>
-                                    <td>1. Computer Networks by Tanenbaum<br>
-                                        2. Computer Networking: A top-down approach by Kurose-Ross<br>
-                                        3. TCP/IP Protocol Suite by Behrouz Forouzan<br>
+                                     <div class="subject"><td>7</td>
+                                    <td>Computer Networks</td></div>
+                                    <td>
+									<div class="book">
+                                    <a href="BooksCS/Computer Networks - A Tanenbaum - 5th edition.pdf">1. Computer Networks by Tanenbaum</a><br><hr>
+                                       <a href="BooksCS/Computer_Networking_A_Top-Down_Approach.pdf"> 2. Computer Networking: A top-down approach by Kurose-Ross</a><br><hr>
+                                        <a href="BooksCS/TDC463.pdf">3. TCP/IP Protocol Suite by Behrouz Forouzan</a><br>
+                                    </div>
                                     </td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>8</td>
-                                    <td>Operating Systems</td>
-                                    <td>1. Operating Systems Principle by Silberschatz,Galvin and Gagne<br>
-                                        2. Modern Operating Systems by Tanenbaum<br>
-                                        3. Operating Systems: Internals and Design Principles by William Stallings
-                                    </td>
+                                     <div class="subject"><td>8</td>
+                                    <td>Operating Systems</td></div>
+                                    <td>     
+                                    <div class="book">
+										<a href="BooksCS/Operating_System_Concepts.pdf">1. Operating Systems Principle by Silberschatz,Galvin and Gagne</a><br><hr>
+                                        <a href="BooksCS/Modern Operating System - Tanenbaum.pdf">2. Modern Operating Systems by Tanenbaum</a><br><hr>
+                                       <a href="BooksCS/Operating_System.pdf"> 3. Operating Systems: Internals and Design Principles by William Stallings
+                                    </a>
+                                    </div></td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>9</td>
-                                    <td>System Programming</td>
-                                    <td>1. Principles of Compiler Design by Aho, Sethi and Ullman</td>
+                                     <div class="subject"><td>9</td>
+                                    <td>System Programming</td></div>
+                                    <td><div class="book">
+<a href="BooksCS/Addison Wesley - Aho, Sethi, Ullman Compilers Principles, Techinques, And Tools.pdf">1. Principles of Compiler Design by Aho, Sethi and Ullman</a>
+</div></td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>10</td>
-                                    <td>Software Engineering</td>
-                                    <td>1. Software Engineering:A Practitoner's Approach by Pressman<br>
-                                        2. Software Engineering by Suman
-                                    </td>
+                                    <div class="subject"> <td>10</td>
+                                    <td>Software Engineering</td></div>
+                                    <td><div class="book">
+<a href="BooksCS/CS605-Software Engineering Practitioner’s Approach  by Roger S. Pressman .pdf">1. Software Engineering:A Practitoner's Approach by Pressman</a><br><hr>
+                                       <a href="#" style="color:red;"> 2. Software Engineering by Suman</a>
+                                    </div></td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>11</td>
-                                    <td>Object Oriented Software Engineering(OOSE)</td>
-                                    <td>1. JAVA -The Complete Reference by Herbert Schildt<br>
-                                        2. Core JAVA Volume I- Fundamentals<br>
-                                        3. JAVA How to Program <br>
-                                        4. Thinking in Java<br>
-                                        5. SCJP by Kathy and Sierra
-                                    </td>
+                                    <div class="subject"> <td>11</td>
+                                    <td>Object Oriented Software Engineering(OOSE)</td></div>
+                                    <td><div class="book">
+<a href="BooksCS/Java 2 complete reference 5th ed Herbert Schildt.pdf">1. JAVA -The Complete Reference by Herbert Schildt</a><br><hr>
+                                        <a href="BooksCS/Core Java Volume I- Fundamentals 9th Edition- Horstmann, Cay S. & Cornell, Gary_2013.pdf">2. Core JAVA Volume I- Fundamentals</a><br><hr>
+                                       <a href="BooksCS/how to program Java.pdf"> 3. JAVA How to Program</a> <br><hr>
+                                        <a href="BooksCS/Thinking_in_Java_4th_edition.pdf">4. Thinking in Java</a><br><hr>
+                                       <a href="BooksCS/_darksiderg.pdf"> 5. SCJP by Kathy and Sierra</a>
+                                    </div></td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>12</td>
-                                    <td>Artificial Intelligence</td>
-                                    <td>1. Artificial Intelligence by Rich and Knight</td>
+                                    <div class="subject"> <td>12</td>
+                                    <td>Artificial Intelligence</td></div>
+                                    <td><div class="book">
+<a href="BooksCS/artificial-intelligence-by-rich-and-knight.pdf">1. Artificial Intelligence by Rich and Knight</a></div></td>
                                      
                                 </tr>
                                 <tr>
-                                    <td>13</td>
-                                    <td>Analysis and Design of Algorithms</td>
-                                    <td>1. Introduction to Algorithms- Cormen,Leiserson,Rivest,Stein<br>
-                                        2. Fundamentals of Computer algorithms by Horowitz and Sahni
-                                    </td>
+                                    <div class="subject"> <td>13</td>
+                                    <td>Analysis and Design of Algorithms</td></div>
+                                    <td><div class="book">
+<a href="BooksCS/Introduction.to.Algorithms.3rd.Edition.Sep.2010.pdf">1. Introduction to Algorithms- Cormen,Leiserson,Rivest,Stein</a><br><hr>
+                                        <a href="BooksCS/horowitz-and-sahani-fundamentals-of-computer-algorithms-2nd-edition.pdf">2. Fundamentals of Computer algorithms by Horowitz and Sahni</a>
+                                    </div></td>
                                      
                                 </tr>
                             </tbody>
